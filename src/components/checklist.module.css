@@ -1,0 +1,13 @@
+.wrapper p {
+  color: rgb(192, 192, 192);
+}
+
+.wrapper .passed {
+  color: green;
+}
+
+.wrapper .passed:before {
+  content: "✔";
+  display: inline-block;
+  margin-right: 0.4em;
+}

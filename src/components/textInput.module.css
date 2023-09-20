@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: darkcyan;
+  margin-bottom: 0.25em;
+}
+
+.input {
+  border: 1px solid #ccc;
+  color: #888;
+  border-radius: 0.25em;
+  padding: 0.2em 0.4em;
+  width: 100%;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 200;
+  font-family: inherit;
+}
+
+.input:required {
+  border-left: 4px solid #888;
+}
+
+.input:focus {
+  outline: 2px solid lightseagreen;
+}
+
+.validationMessage {
+  font-size: 0.8em;
+  color: red;
+  margin-top: 0.5em;
+}
+
+.innerContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.rhsComponent {
+  height: 100%;
+}

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: cadetblue;
+}
+
+button {
+  border: none;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5em 2em;
+  font-size: 1em;
+  margin: 0 auto;
+}
+
+button:focus {
+  outline: 2px solid rgb(19, 102, 98);
+}
